@@ -25,7 +25,7 @@
 数据处理    |基于字符串切片提取网页中时间字段，格式化为“YYYY-MM-DD HH:MM”
 
 ## 样例输出
-'''text
+```text
 News updates available.
 [2025-03-14 17:27] Python 3.14.0 alpha 6 is out
 
