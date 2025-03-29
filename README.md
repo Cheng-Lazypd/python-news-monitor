@@ -10,13 +10,10 @@
 4. 定时运行： 部署至 PythonAnywhere，每天固定时间自动执行
 
 ## 项目结构
-main_program.py
-主程序（抓取+对比+写入）
-news_last.txt
-上次新闻列表，用于判断是否有更新（程序自动生成）
-Changelog.txt
-所有新增新闻记录，附带发布日期（程序自动生成）
-“news_last.txt” 和 “Changelog.txt”为运行时生成文件，首次运行时自动创建
+1. main_program.py: 主程序（抓取+对比+写入）
+2. news_last.txt: 上次新闻列表，用于判断是否有更新（程序自动生成）
+3. Changelog.txt: 所有新增新闻记录，附带发布日期（程序自动生成）
+>“news_last.txt” 和 “Changelog.txt”为运行时生成文件，首次运行时自动创建
 
 ## 技术要点
 模块       | 技术
