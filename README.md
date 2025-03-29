@@ -25,34 +25,38 @@
 数据处理    |基于字符串切片提取网页中时间字段，格式化为“YYYY-MM-DD HH:MM”
 
 ## 样例输出
+
 ```text
 News updates available.
 [2025-03-14 17:27] Python 3.14.0 alpha 6 is out
+```
 
 ## Changelog样式示例
+```text
 [2025-03-14 17:27] Python 3.14.0 alpha 6 is out
 [2025-03-12 15:32] PSF Distinguished Service Award Granted to Thomas Wouters
 [2025-03-11 15:53] PSF Distinguished Service Award Granted to Van Lindberg
 [2025-03-06 13:40] PSF Distinguished Service Award Granted to Ewa Jodlowska
 [2025-03-04 11:40] Announcing Python Software Foundation Fellow Members for Q4 2024! 🎉
+```
 
 ## 云端部署平台
-使用PythonAnywhere
-设置每日定时运行任务
-可自动抓取->对比->写入更新日志
-支持手动运行和日志查看
+1. 使用PythonAnywhere
+2. 设置每日定时运行任务
+3. 可自动抓取->对比->写入更新日志
+4. 支持手动运行和日志查看
 
 ## 项目亮点
-HTML结构解析路径明确，基于BeautifulSoup多层“.find()”实现精准抓取
-自动化比对，不重复记录旧内容
-模块化结构，后续易于扩展邮件/Telegram提醒等功能
-支持长期运行与日志归档，适合实际使用
+1. HTML结构解析路径明确，基于BeautifulSoup多层“.find()”实现精准抓取
+2. 自动化比对，不重复记录旧内容
+3. 模块化结构，后续易于扩展邮件/Telegram提醒等功能
+4. 支持长期运行与日志归档，适合实际使用
 
 ## 可扩展方向
-支持多页面，多网站并行监控
-将日志格式切换为CSV/JSON，支持数据分析
-接入通知功能（邮箱，微信，Telegram等）
-打包为“.exe”或做成图形化界面供非技术用户使用
+1. 支持多页面，多网站并行监控
+2. 将日志格式切换为CSV/JSON，支持数据分析
+3. 接入通知功能（邮箱，微信，Telegram等）
+4. 打包为“.exe”或做成图形化界面供非技术用户使用
 
 ## 项目作者
 本项目由Cheng-Lazypd编写，作为自动化+云部署+数据监控方向的实战项目，欢迎参考或二次开发
